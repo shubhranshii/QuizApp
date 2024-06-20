@@ -1,9 +1,7 @@
 package com.shubhranshi.quizapp.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import jakarta.persistence.*;
 import lombok.Data;
 
 @Data //lombok data
@@ -18,6 +16,9 @@ public class Question {
     private String option3;
     private String option4;
     private String rightAnswer;
+
+    @Column(name = "difficulty_level")  // <-- Map JSON field to entity column
+    @JsonProperty("difficultyLevel")
     public String difficultylevel;
     private String category;
 }
