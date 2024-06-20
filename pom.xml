@@ -11,8 +11,8 @@
 	<groupId>com.shubhranshi</groupId>
 	<artifactId>quizapp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>quizpp</name>
-	<description>Spring Boot Quiz applicatio</description>
+	<name>quizapp</name>
+	<description>Spring Boot Quiz application</description>
 	<url/>
 	<licenses>
 		<license/>
