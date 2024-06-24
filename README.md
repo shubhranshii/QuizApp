@@ -1,2 +1,2 @@
 # QuizApp
-QuizApp using Springboot
+QuizApp using Springboot and PostgreSQL
